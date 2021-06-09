@@ -1,9 +1,12 @@
 import React from "react";
-import './Sidebar.css'
+import "./Sidebar.css";
 
 const SideBar = () => {
   return (
-    <div className="sidebar" style={{ backgroundColor: "#201B20", padding: "10px", }}>
+    <div
+      className="sidebar"
+      style={{ backgroundColor: "#201B20", padding: "10px" }}
+    >
       <h5 className="text-white">Find a rental property</h5>
       <div className="container mt-5">
         <div className="row">
@@ -29,7 +32,10 @@ const SideBar = () => {
             <span style={{ color: "#CA18AA" }}>
               Minimum beds
               <br />
-              <span style={{ color: "white" }}>No min &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;˅</span>
+              <span style={{ color: "white" }}>
+                No min
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;˅
+              </span>
             </span>{" "}
           </div>
           <div
@@ -41,7 +47,10 @@ const SideBar = () => {
             }}
           >
             <span style={{ color: "#CA18AA" }}>Maximum beds</span> <br />
-            <span style={{ color: "white" }}>No max&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;˅</span>
+            <span style={{ color: "white" }}>
+              No
+              max&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;˅
+            </span>
           </div>
         </div>
       </div>
@@ -52,7 +61,10 @@ const SideBar = () => {
             style={{ borderRadius: "10px", backgroundColor: "#0C0B0B" }}
           >
             <span style={{ color: "#CA18AA" }}>Price per</span> <br />
-            <span style={{ color: "white" }}>month &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;˅</span>
+            <span style={{ color: "white" }}>
+              month
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;˅
+            </span>
           </div>
         </div>
         <div class="row mt-3">
@@ -65,7 +77,10 @@ const SideBar = () => {
             }}
           >
             <span style={{ color: "#CA18AA" }}>Minimum Price</span> <br />
-            <span style={{ color: "white" }}>No min &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;˅</span>
+            <span style={{ color: "white" }}>
+              No min
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;˅
+            </span>
           </div>
           <div
             class="col-5 "
@@ -76,7 +91,10 @@ const SideBar = () => {
             }}
           >
             <span style={{ color: "#CA18AA" }}>Maximum Price</span> <br />
-            <span style={{ color: "white" }}>No max &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;˅</span>
+            <span style={{ color: "white" }}>
+              No max
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;˅
+            </span>
           </div>
         </div>
       </div>

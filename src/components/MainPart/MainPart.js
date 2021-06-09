@@ -10,7 +10,7 @@ import fifthbed from "../images/bed5.jpg";
 import sofa from "../images/sofa.png";
 import bed from "../images/bed.png";
 
-import './MainPart.css'
+import "./MainPart.css";
 
 const MainPart = () => {
   return (
@@ -34,13 +34,13 @@ const MainPart = () => {
                 <img
                   className="d-block img-style"
                   src={firstbed}
-                  style={{ borderRadius: "10px", }}
+                  style={{ borderRadius: "10px" }}
                   alt="First slide"
                 />
               </Carousel.Item>
               <Carousel.Item interval={500}>
                 <img
-                  style={{ borderRadius: "10px", }}
+                  style={{ borderRadius: "10px" }}
                   className="d-block img-style"
                   src={secondbed}
                   alt="Second slide"
@@ -48,7 +48,7 @@ const MainPart = () => {
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  style={{ borderRadius: "10px", }}
+                  style={{ borderRadius: "10px" }}
                   className="d-block img-style"
                   src={thirdbed}
                   alt="Third slide"
@@ -56,7 +56,7 @@ const MainPart = () => {
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  style={{ borderRadius: "10px", }}
+                  style={{ borderRadius: "10px" }}
                   className="d-block img-style"
                   src={fourthbed}
                   alt="fourth slide"
@@ -64,7 +64,7 @@ const MainPart = () => {
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  style={{ borderRadius: "10px", }}
+                  style={{ borderRadius: "10px" }}
                   className="d-block img-style"
                   src={fifthbed}
                   alt="fifth slide"
@@ -111,13 +111,13 @@ const MainPart = () => {
                 <img
                   className="d-block img-style"
                   src={firstbed}
-                  style={{ borderRadius: "10px", }}
+                  style={{ borderRadius: "10px" }}
                   alt="First slide"
                 />
               </Carousel.Item>
               <Carousel.Item interval={500}>
                 <img
-                  style={{ borderRadius: "10px", }}
+                  style={{ borderRadius: "10px" }}
                   className="d-block img-style"
                   src={secondbed}
                   alt="Second slide"
@@ -125,7 +125,7 @@ const MainPart = () => {
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  style={{ borderRadius: "10px", }}
+                  style={{ borderRadius: "10px" }}
                   className="d-block img-style"
                   src={thirdbed}
                   alt="Third slide"
@@ -133,7 +133,7 @@ const MainPart = () => {
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  style={{ borderRadius: "10px", }}
+                  style={{ borderRadius: "10px" }}
                   className="d-block img-style"
                   src={fourthbed}
                   alt="fourth slide"
@@ -141,7 +141,7 @@ const MainPart = () => {
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  style={{ borderRadius: "10px", }}
+                  style={{ borderRadius: "10px" }}
                   className="d-block img-style"
                   src={fifthbed}
                   alt="fifth slide"
@@ -188,13 +188,13 @@ const MainPart = () => {
                 <img
                   className="d-block img-style"
                   src={firstbed}
-                  style={{ borderRadius: "10px", }}
+                  style={{ borderRadius: "10px" }}
                   alt="First slide"
                 />
               </Carousel.Item>
               <Carousel.Item interval={500}>
                 <img
-                  style={{ borderRadius: "10px", }}
+                  style={{ borderRadius: "10px" }}
                   className="d-block img-style"
                   src={secondbed}
                   alt="Second slide"
@@ -202,7 +202,7 @@ const MainPart = () => {
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  style={{ borderRadius: "10px", }}
+                  style={{ borderRadius: "10px" }}
                   className="d-block img-style"
                   src={thirdbed}
                   alt="Third slide"
@@ -210,7 +210,7 @@ const MainPart = () => {
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  style={{ borderRadius: "10px", }}
+                  style={{ borderRadius: "10px" }}
                   className="d-block img-style"
                   src={fourthbed}
                   alt="fourth slide"
@@ -218,7 +218,7 @@ const MainPart = () => {
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  style={{ borderRadius: "10px", }}
+                  style={{ borderRadius: "10px" }}
                   className="d-block img-style"
                   src={fifthbed}
                   alt="fifth slide"
