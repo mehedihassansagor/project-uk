@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+    .sidebar {
+      height:450px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .sidebar {
+      height:800px;
+    }
+  }
